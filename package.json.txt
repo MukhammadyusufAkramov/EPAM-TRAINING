@@ -1,0 +1,199 @@
+{
+  "name": "user",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Akramov Mukhammadyusuf",
+  "license": "ISC",
+  "dependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "coder-ipsum": "^1.1.2",
+    "faker": "^6.6.6",
+    "fs-extra": "^10.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MukhammadyusufAkramov"
+  }
+}
+
+
+
+C:\Users\User>package.json
+
+C:\Users\User>
+[main 2022-07-11T07:45:29.072Z] update#setState idle
+[main 2022-07-11T07:45:29.997Z] Starting extension host with pid 8232 (fork() took 13 ms).
+(node:9856) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+[main 2022-07-11T07:45:59.077Z] update#setState checking for updates
+[main 2022-07-11T07:45:59.089Z] update#setState downloading
+[main 2022-07-11T07:46:20.342Z] Waiting for extension host with pid 8232 to exit.
+[main 2022-07-11T07:46:20.382Z] Extension host with pid 8232 exited with code: 0, signal: null.
+
+
+
+{
+  "name": "user",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "user",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@types/fs-extra": "^9.0.13",
+        "coder-ipsum": "^1.1.2",
+        "faker": "^6.6.6",
+        "fs-extra": "^10.1.0"
+      }
+    },
+    "node_modules/@types/fs-extra": {
+      "version": "9.0.13",
+      "resolved": "https://registry.npmjs.org/@types/fs-extra/-/fs-extra-9.0.13.tgz",
+      "integrity": "sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==",
+      "dependencies": {
+        "@types/node": "*"
+      }
+    },
+    "node_modules/@types/node": {
+      "version": "18.0.0",
+      "resolved": "https://registry.npmjs.org/@types/node/-/node-18.0.0.tgz",
+      "integrity": "sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA=="
+    },
+    "node_modules/coder-ipsum": {
+      "version": "1.1.2",
+      "resolved": "https://registry.npmjs.org/coder-ipsum/-/coder-ipsum-1.1.2.tgz",
+      "integrity": "sha512-eL8Q26Bbatg7u89I5mV1OGJwGW7jStohk1cwa7GcPdQslBq4lcg8PItOILzb1b9T7eskRf/guKLOycrxvdpTrQ==",
+      "dependencies": {
+        "lodash": "^4.17.11"
+      }
+    },
+    "node_modules/faker": {
+      "version": "6.6.6",
+      "resolved": "https://registry.npmjs.org/faker/-/faker-6.6.6.tgz",
+      "integrity": "sha512-9tCqYEDHI5RYFQigXFwF1hnCwcWCOJl/hmll0lr5D2Ljjb0o4wphb69wikeJDz5qCEzXCoPvG6ss5SDP6IfOdg=="
+    },
+    "node_modules/fs-extra": {
+      "version": "10.1.0",
+      "resolved": "https://registry.npmjs.org/fs-extra/-/fs-extra-10.1.0.tgz",
+      "integrity": "sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==",
+      "dependencies": {
+        "graceful-fs": "^4.2.0",
+        "jsonfile": "^6.0.1",
+        "universalify": "^2.0.0"
+      },
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    "node_modules/graceful-fs": {
+      "version": "4.2.10",
+      "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz",
+      "integrity": "sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA=="
+    },
+    "node_modules/jsonfile": {
+      "version": "6.1.0",
+      "resolved": "https://registry.npmjs.org/jsonfile/-/jsonfile-6.1.0.tgz",
+      "integrity": "sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==",
+      "dependencies": {
+        "universalify": "^2.0.0"
+      },
+      "optionalDependencies": {
+        "graceful-fs": "^4.1.6"
+      }
+    },
+    "node_modules/lodash": {
+      "version": "4.17.21",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz",
+      "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
+    },
+    "node_modules/universalify": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/universalify/-/universalify-2.0.0.tgz",
+      "integrity": "sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==",
+      "engines": {
+        "node": ">= 10.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@types/fs-extra": {
+      "version": "9.0.13",
+      "resolved": "https://registry.npmjs.org/@types/fs-extra/-/fs-extra-9.0.13.tgz",
+      "integrity": "sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==",
+      "requires": {
+        "@types/node": "*"
+      }
+    },
+    "@types/node": {
+      "version": "18.0.0",
+      "resolved": "https://registry.npmjs.org/@types/node/-/node-18.0.0.tgz",
+      "integrity": "sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA=="
+    },
+    "coder-ipsum": {
+      "version": "1.1.2",
+      "resolved": "https://registry.npmjs.org/coder-ipsum/-/coder-ipsum-1.1.2.tgz",
+      "integrity": "sha512-eL8Q26Bbatg7u89I5mV1OGJwGW7jStohk1cwa7GcPdQslBq4lcg8PItOILzb1b9T7eskRf/guKLOycrxvdpTrQ==",
+      "requires": {
+        "lodash": "^4.17.11"
+      }
+    },
+    "faker": {
+      "version": "6.6.6",
+      "resolved": "https://registry.npmjs.org/faker/-/faker-6.6.6.tgz",
+      "integrity": "sha512-9tCqYEDHI5RYFQigXFwF1hnCwcWCOJl/hmll0lr5D2Ljjb0o4wphb69wikeJDz5qCEzXCoPvG6ss5SDP6IfOdg=="
+    },
+    "fs-extra": {
+      "version": "10.1.0",
+      "resolved": "https://registry.npmjs.org/fs-extra/-/fs-extra-10.1.0.tgz",
+      "integrity": "sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==",
+      "requires": {
+        "graceful-fs": "^4.2.0",
+        "jsonfile": "^6.0.1",
+        "universalify": "^2.0.0"
+      }
+    },
+    "graceful-fs": {
+      "version": "4.2.10",
+      "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz",
+      "integrity": "sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA=="
+    },
+    "jsonfile": {
+      "version": "6.1.0",
+      "resolved": "https://registry.npmjs.org/jsonfile/-/jsonfile-6.1.0.tgz",
+      "integrity": "sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==",
+      "requires": {
+        "graceful-fs": "^4.1.6",
+        "universalify": "^2.0.0"
+      }
+    },
+    "lodash": {
+      "version": "4.17.21",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz",
+      "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
+    },
+    "universalify": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/universalify/-/universalify-2.0.0.tgz",
+      "integrity": "sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ=="
+    }
+  }
+}
+
+C:\Users\User>package-lock.json
+
+C:\Users\User>
+[main 2022-07-11T07:48:00.147Z] update#setState idle
+[main 2022-07-11T07:48:01.050Z] Starting extension host with pid 19260 (fork() took 21 ms).
+[main 2022-07-11T07:48:23.241Z] Waiting for extension host with pid 19260 to exit.
+[main 2022-07-11T07:48:23.283Z] Extension host with pid 19260 exited with code: 0, signal: null.

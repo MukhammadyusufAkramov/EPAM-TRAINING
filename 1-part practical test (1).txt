@@ -1,0 +1,80 @@
+Microsoft Windows [Version 10.0.22000.739]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\User>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (user)
+version: (1.0.0)
+git repository:
+license: (ISC)
+About to write to C:\Users\User\package.json:
+
+{
+  "name": "user",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Akramov Mukhammadyusuf",
+  "license": "ISC",
+  "dependencies": {
+    "coder-ipsum": "^1.1.2",
+    "faker": "^6.6.6"
+  },
+  "devDependencies": {}
+}
+
+
+Is this OK? (yes)
+
+C:\Users\User>npm install fs-extra
+
+added 4 packages, and audited 8 packages in 3s
+
+1 high severity vulnerability
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\User>npm install --save @types/fs-extra
+
+added 2 packages, and audited 10 packages in 6s
+
+1 high severity vulnerability
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+
+C:\Users\User>npm install --save fs
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+
+added 1 package, and audited 11 packages in 2s
+
+1 high severity vulnerability
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\User>
